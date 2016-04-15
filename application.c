@@ -193,6 +193,7 @@ void application_draw(cairo_t *cr, int width, int height)
 			xWiringPi = (width / 2) - ((18 * FIELD_SIZE) / 2) + 12;
 		}
 		
+		y = FIELD_SIZE + 12 + (((pin + 1) / 2) * FIELD_SIZE);
 		cairo_set_source_rgb(cr, 0.0, 0.0, 0.0);
 		cairo_move_to(cr, xNum, y + 4);
 		sprintf(str, "%2d", pin);
@@ -201,7 +202,6 @@ void application_draw(cairo_t *cr, int width, int height)
 		cairo_stroke (cr);
 		
 		cairo_set_source_rgb(cr, 0.0, 0.0, 0.0);    // black
-		y = FIELD_SIZE + 12 + (((pin + 1) / 2) * FIELD_SIZE);
 		cairo_move_to(cr, x + CIRCLE_RADIUS, y);
 		cairo_arc(cr, x, y, CIRCLE_RADIUS, 0, 2 * M_PI);
 		if (pinConfig[pin].value) {
