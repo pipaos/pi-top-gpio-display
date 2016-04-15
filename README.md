@@ -32,6 +32,10 @@ You can test the compilation with
   make
 ```
 
+The program uses Wiring Pi, which is installed in Raspbian Jessie and the pi-top-OS based on Jessie.
+If you do not use Jessie, see wiringpi.com for instructions on how to install Wiring Pi.
+The **gpio** command used below is included in Wiring Pi.
+
 This program does not change the mode of any of the pins, it just observes
 the logic value. If you want to set any of the these pins to output, and observe
 the change, you can open a console and type the following commands.
