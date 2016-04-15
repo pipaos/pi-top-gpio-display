@@ -1,7 +1,8 @@
 # pi-top-gpio-display
 
 Displays the logic value of the general purpose gpio pins on the pi-top hub connector.
-** You must be user pi to install and run this program **
+
+**You must be user pi to install and run this program**
 
 To install:
 
