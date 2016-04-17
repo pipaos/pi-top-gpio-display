@@ -1,6 +1,8 @@
 # pi-top-gpio-display
 
-Displays the logic value of the general purpose gpio pins on the pi-top hub connector.
+Displays the logic value of the general purpose gpio pins on the 
+pi-top hub connector. The pi-top hub is used in the pi-top, a laptop kit
+based on the Raspberry Pi (see http://pi-top.com)
 
 **You must be user pi to install and run this program**
 
@@ -64,5 +66,6 @@ Also, **be carefull hooking up anything to the pi-top hub connector**. You might
 your hardware if you make a mistake. **Do not hook up any pin to 5V**.
 
 
-Please help to improve this program by opening an issue on this repository
+Please help to improve this program by tweeting to
+**http://twitter.com/r_richarz** or opening an issue on this repository
 if you have any problem or suggestion.

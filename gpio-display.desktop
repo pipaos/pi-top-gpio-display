@@ -10,4 +10,5 @@ Type=Application
 Categories=Accessories;
 X-KeepTerminal=true
 Name[en_US]=gpio-display
-Icon=
+Icon=/home/pi/bin/gpio-icon.png
+Path=/home/pi/bin

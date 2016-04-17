@@ -9,4 +9,6 @@ mkdir -p /home/pi/bin
 
 # copy files
 cp application /home/pi/bin/gpio-display
+cp gpio-icon.png /home/pi/bin
 cp gpio-display.desktop /home/pi/Desktop
+
