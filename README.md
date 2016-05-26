@@ -10,14 +10,12 @@ based on the Raspberry Pi (see http://pi-top.com)
 
 To install:
 
-- Download the repository to your pi-top using the "download zip" button
-- Using the file manager, go to your download folder,
- right click on "pi-top-gpio-display-master.zip" and choose "Extract here"
-- Open a console window and type the following commands
+- Open a terminal and type:
 
 ```
   cd Downloads
-  cd pi-top-gpio-display-master
+  git clone git://github.com/rricharz/pi-top-gpio-display
+  cd pi-top-gpio-display
   chmod +x ./install
   ./install
 ```
