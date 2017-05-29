@@ -1,0 +1,13 @@
+Source: pitop-gpio
+Maintainer: Albert Casals <skarbat@gmail.com>
+Section: shells
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>=9.0.0), libgtk-3-dev, wiringpi, pkg-config
+Homepage: https://github.com/rricharz/pi-gpio-display
+
+Package: pitop-gpio
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgtk-3-0, wiringpi
+Description: Displays the logic value of the general purpose gpio
+ pins on the Raspberry Pi gpio connector
